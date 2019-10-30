@@ -1,4 +1,4 @@
-## Auction for Fundraising for a Social Cause  
+## Auction for Fundraising for a Social Cause 🙏
  
 # Problem Statement:  
 
