@@ -6,3 +6,5 @@ Consider the problem of Chinese auction or penny social. We will refer to it as 
 
 Aunction_1.txt without modifier
 Aunction_2.txt with modifier
+
+Someone can make an html for this would be great.
