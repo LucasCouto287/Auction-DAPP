@@ -1,4 +1,4 @@
- url = "http://127.0.0.1:8545";
+var url = "http://127.0.0.1:8545";
 var contractAddress = "Auction at 0x692a70D2e424a56D2C6C27aA97D1a86395877b3A";
 
 var abi = [
