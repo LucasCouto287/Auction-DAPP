@@ -83,13 +83,7 @@ function helloFn(e) {
   e.preventDefault();
   while (helloResult.firstChild) {
     helloResult.removeChild(helloResult.firstChild);
-  }
-  contractWithSigner.hello().then(val => {
-    var res = document.createElement("p");
-    res.textContent = val;
-    helloResult.appendChild(res);
-  });
-}
+
 
 
 window.onload = () => {
