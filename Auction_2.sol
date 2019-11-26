@@ -121,12 +121,3 @@ contract Auction {
      modifier onlyOwner(){
         require( beneficiary == msg.sender,'Unauthorised access');
         _; /*Stop execute*/
-    }
-    //  Miscellaneous methods: Below methods are used to assist Grading. Please
-    // DONOT CHANGE THEM.
-    // function getPersonDetails(uint id) public constant
-    // returns(uint,uint,address){
-    // return
-    // (bidders[id].remainingTokens,bidders[id].personId,bidders[id].addr);
-    // }
-}
