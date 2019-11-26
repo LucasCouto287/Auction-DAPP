@@ -91,3 +91,10 @@ function helloFn(e) {
   });
 }
 
+
+window.onload = () => {
+  provider = new ethers.providers.JsonRpcProvider(url);
+  walletWithProvider = new ethers.Wallet(privateKey, provider);
+  contractInstance = new ethers.Contract(contractAddress, abi, provider);
+  contractWithSigner = contractInstance.connect(walletWithProvider);
+};
