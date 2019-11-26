@@ -84,7 +84,13 @@ function helloFn(e) {
   while (helloResult.firstChild) {
     helloResult.removeChild(helloResult.firstChild);
 
-
+  }
+  contractWithSigner.hello().then(val => {
+    var res = document.createElement("p");
+    res.textContent = val;
+    helloResult.appendChild(res);
+  });
+}
 
 window.onload = () => {
   provider = new ethers.providers.JsonRpcProvider(url);
